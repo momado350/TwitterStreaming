@@ -75,3 +75,4 @@ tags_totals.foreachRDD(process_rdd)
 ssc.start()
 # wait for the streaming to finish
 ssc.awaitTermination()
+
