@@ -46,4 +46,3 @@ conn, addr = s.accept()
 print("Connected... Starting getting tweets.")
 resp = get_tweets()
 send_tweets_to_spark(resp,conn)
-
